@@ -144,7 +144,7 @@ public class FIXConfig {
          * Create a session configuration builder.
          */
         public Builder() {
-            version           = FIXVersion.FIX_4_4;
+            version           = FIXVersion.FIX_4_2;
             senderCompId      = "";
             targetCompId      = "";
             heartBtInt        = 30;
