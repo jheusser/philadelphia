@@ -17,7 +17,6 @@ class FIXMessageParser {
 
     public FIXMessageParser(FIXMessageListener listener, FIXMessage message) {
         this.listener = listener;
-
         this.message = message;
 
         this.beginString = new FIXField(8);
